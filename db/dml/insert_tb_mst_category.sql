@@ -1,0 +1,10 @@
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000001', '0~100', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000002', '101~200', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000003', '201~300', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000004', '301~400', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000005', '401~500', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000006', '501~600', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000007', '601~700', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000008', '701~800', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000009', '801~900', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');
+INSERT INTO tb_mst_category (category_id, category_name, delete_flg, regist_date, regist_user_id, update_date, update_user_id) VALUES ('00000010', '901~1000', '0', '2024/04/28', 'SYSTEM', '2024/04/28', 'SYSTEM');

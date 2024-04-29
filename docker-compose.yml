@@ -1,0 +1,23 @@
+version: '3'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app/
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    tty: true
+    depends_on:
+      - db
+  db:
+    build: ./db
+    environment:
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/home/cozy/sql/init/
