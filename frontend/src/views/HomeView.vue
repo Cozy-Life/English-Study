@@ -1,9 +1,22 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="login-wrapper">
+    <div>
+        <p>ログイン</p>
+    </div>
+    <div>
+        <p>ユーザID</p>
+        <input type="text" />
+    </div>
+    <div>
+        <p>パスワード</p>
+        <input type="password" />
+    </div>
+  </div>
+
 </template>
+
+<style scoped>
+</style>
